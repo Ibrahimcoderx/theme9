@@ -1,0 +1,61 @@
+/* font */
+
+/* font-family: 'Jost', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap');
+
+/* font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&display=swap');
+
+
+
+
+
+/* CSS Start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container ul,
+.container ol {
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: none;
+}
+
+.container a,
+.container button,
+.container span,
+.container p,
+.container ul,
+.container li,
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Dropdown */
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    padding: 10px;
+}
+

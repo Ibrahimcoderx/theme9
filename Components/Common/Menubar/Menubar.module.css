@@ -1,0 +1,95 @@
+.MenubarTopDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Jost', sans-serif;
+    height: 44px;
+}
+
+.MenubarTopTxtDiv p{
+    color:#212121;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.MenubarTopTxtDiv{
+    color:#212121;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.MenubarTopTxtDiv svg{
+    color:#CDA557;
+    font-size: 20px;
+    line-height: 15px;
+    margin-right: 8px;
+}
+
+.MenubarTopTxtDivRight{
+    display: flex;
+}
+
+.MenubarTopTxtDivRight button{
+    color:#212121;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.MenubarTopTxtDivRight button svg{
+    margin-right: 15px;
+}
+
+.MenubarTopTxtDivRight button{
+    background: none !important;
+    outline: none;
+    border: none;
+    color:#212121 !important;
+}
+
+.MenubarTopTxtDivRight button:hover{
+    background: none;
+    outline: none;
+    border: none;
+    color:#212121;
+    font-size: 14px;
+}
+
+.MenubarTopTxtlastDiv svg{
+    font-size: 20px;
+    color:#666666;
+    margin-right: 8px;
+}
+
+.Hr{
+    border-bottom: 1px solid #EBEBEB;
+}
+
+/* Mid Div------------- */
+
+.MenubarMidDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 92px;
+    
+}
+
+.MenubarMidInput2{
+    border: none;
+    background:#EBEBEB;
+    color:#9A9CAA;
+}
+.MenubarMidInput{
+    width: 413px;
+    background:#EBEBEB;
+    border-radius: 5px;
+}
+
+.MenubarMidInput button{
+    border: none;
+}
+
+.MenubarMidInput svg{
+        margin-right: 10px;
+        margin-left: 10px;
+}
